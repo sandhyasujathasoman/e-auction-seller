@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "app.services.buyer-service",
+      "type": "com.eauction.seller.config.BuyerServiceConfig",
+      "sourceType": "com.eauction.seller.config.BuyerServiceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.services.buyer-service.bid-search",
+      "type": "java.lang.String",
+      "sourceType": "com.eauction.seller.config.BuyerServiceConfig"
+    },
+    {
+      "name": "app.services.buyer-service.host",
+      "type": "java.lang.String",
+      "sourceType": "com.eauction.seller.config.BuyerServiceConfig"
+    },
+    {
+      "name": "app.services.buyer-service.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eauction.seller.config.BuyerServiceConfig"
+    },
+    {
+      "name": "app.services.buyer-service.scheme",
+      "type": "java.lang.String",
+      "sourceType": "com.eauction.seller.config.BuyerServiceConfig"
+    }
+  ],
+  "hints": []
+}
