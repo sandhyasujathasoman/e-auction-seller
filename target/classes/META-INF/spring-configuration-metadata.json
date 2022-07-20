@@ -20,7 +20,8 @@
     {
       "name": "app.services.buyer-service.port",
       "type": "java.lang.Integer",
-      "sourceType": "com.eauction.seller.config.BuyerServiceConfig"
+      "sourceType": "com.eauction.seller.config.BuyerServiceConfig",
+      "defaultValue": -1
     },
     {
       "name": "app.services.buyer-service.scheme",
