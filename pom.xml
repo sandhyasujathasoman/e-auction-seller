@@ -127,7 +127,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.eauction.seller.EAuctionSellerServiceApplication</mainClass>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>com.eauction.seller.EAuctionSellerServiceApplication</mainClass>
+						</manifest>
+					</archive>
+					
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
