@@ -7,7 +7,7 @@ spring:
     name: e-auction-seller-service
   data:
     mongodb:
-      uri: mongodb://auctionseller:password@ec2-52-15-79-3.us-east-2.compute.amazonaws.com/auctionsellerdb
+      uri: mongodb://auctionseller:password@ec2-15-206-75-239.ap-south-1.compute.amazonaws.com/auctionsellerdb
 
 info:
   app:
