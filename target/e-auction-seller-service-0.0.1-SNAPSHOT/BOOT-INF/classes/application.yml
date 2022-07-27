@@ -7,18 +7,7 @@ spring:
     name: e-auction-seller-service
   data:
     mongodb:
-      uri: mongodb://127.0.0.1:27017/eauctiondb-seller?retryWrites=true&w=majority
-  cloud:
-    inetutils:
-      ignoredInterfaces: eth0
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    prefer-ip-address: true
-
+      uri: mongodb://auctionseller:password@ec2-15-206-75-239.ap-south-1.compute.amazonaws.com/auctionsellerdb
 
 info:
   app:
